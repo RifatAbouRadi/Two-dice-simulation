@@ -4,7 +4,7 @@
 This program simulates rolling two dice many times and records how often each possible sum (from 2 to 12) appears.
 It demonstrates probability distribution through random simulation.
 
-📌 Description
+# 📌 Description
 
 The program rolls two dice 50,000 times.
 For each roll:
@@ -21,7 +21,7 @@ After all rolls are completed, the program prints how many times each sum (2–1
 
 This shows the classic probability pattern where 7 appears most often because it has the highest number of combinations.
 
-🧠 Expected Behavior
+# 🧠 Expected Behavior
 
 Because some sums can be formed in more ways than others:
 
@@ -36,13 +36,13 @@ Your output will look something like:
  ...
 12: 1389
 
-🎲 Before running: which sum appears the most?
+# 🎲 Before running: which sum appears the most?
 
 Sum 7 is the most common.
 It has 6 different ways to appear, more than any other sum.
 
 Values will vary slightly because of randomness.
 
-💻 How to Compile and Run
+# 💻 How to Compile and Run
 gcc dice_simulation.c -o dice
 ./dice
